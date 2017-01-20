@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="AnBinhFarm.Home" %>
+
+<%@ Register src="WEBUSC/footer.ascx" tagname="bottom" tagprefix="uc2" %>
+
+<%@ Register src="WEBUSC/Lmenu2.ascx" tagname="Lmenu2" tagprefix="uc3" %>
+
+<%@ Register src="WEBUSC/MainMenu.ascx" tagname="MainMenu" tagprefix="uc1" %>
+
+<%@ Register src="WEBUSC/ThongtinCART.ascx" tagname="ThongtinCART" tagprefix="uc4" %>
+
+<%@ Register src="WEBUSC/LIENHE.ascx" tagname="LIENHE" tagprefix="uc5" %>
+
+<%@ Register src="WEBUSC/Timkiem.ascx" tagname="Timkiem" tagprefix="uc6" %>
+
+<%@ Register src="WEBUSC/SanphamBanChay.ascx" tagname="SanphamBanChay" tagprefix="uc7" %>
+
+<%@ Register src="WEBUSC/DEAL.ascx" tagname="DEAL" tagprefix="uc8" %>
+
+<%@ Register src="WEBUSC/LMenu.ascx" tagname="LMenu" tagprefix="uc9" %>
+
+<%@ Register src="WEBUSC/HotArticle.ascx" tagname="HotArticle" tagprefix="uc10" %>
+
+<%@ Register src="WEBUSC/Header.ascx" tagname="Header" tagprefix="uc11" %>
+
+<%@ Register src="WEBUSC/SlideKM.ascx" tagname="SlideKM" tagprefix="uc12" %>
+
+<%@ Register src="WEBUSC/SlideKMM.ascx" tagname="SlideKMM" tagprefix="uc13" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="App_Themes/default/style.css" rel="stylesheet" type="text/css" />
+     <link href="/Scripts/stickytooltip.css" rel="stylesheet" type="text/css" />
+     <script src="/Scripts/jquery-1.8.2.min.js" ></script>
+     <script src="/Scripts/stickytooltip.js" type="text/javascript"></script>
+     
+    <title>
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />  
+
+    
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div id="all">
+            <div id="header"><a name="top"></a>
+                <uc11:Header ID="Header1" runat="server" />
+            </div>
+            <div id="main">
+                <div id="left">
+                    <uc9:LMenu ID="LMenu1" runat="server" />
+                    <asp:ContentPlaceHolder ID="leftChua" runat="server">
+                        </asp:ContentPlaceHolder>
+                </div>
+                <div id="right">
+                    <div id="tren">
+                        <div id="menungang">
+                               <uc1:MainMenu ID="MainMenu1" runat="server" />
+                        </div>
+                        <div id="center">                            
+                            <div id="timkiem">
+                                <uc6:Timkiem ID="Timkiem1" runat="server" />
+                            </div>
+                            <div id="hot">
+                                <div id="slideKM">
+                                    <!--<uc12:SlideKM ID="SlideKM1" runat="server" />-->
+                                    <uc13:SlideKMM ID="SlideKMM1" runat="server" />
+                                </div>
+                                <div id="hit" >
+                                <asp:ContentPlaceHolder ID="CHUAHit" runat="server">
+                                </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="lienlac">
+                            <uc5:LIENHE ID="LIENHE1" runat="server" />
+                        </div>
+                    </div>
+                    <div id="duoi" >
+                        <asp:ContentPlaceHolder ID="ND" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom">
+                <uc2:bottom ID="bottom1" runat="server" />
+            </div>
+        
+            </div>
+            <div style="width:48px;height:48px; position:fixed; right:100px; bottom:2px;" title="LÊN TRÊN"><a href="#top"><img src="/Images/up.png" width="48px" height="48px" alt="lentren" /></a></div>
+       
+    </form>
+</body>
+</html>

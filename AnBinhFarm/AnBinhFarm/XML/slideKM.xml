@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>..\KhuyenMai\hinh-khuyenmai30-4.jpg</ImageUrl>
+    <NavigateUrl>~/KhuyenMai/khuyenmai30-4.html</NavigateUrl>
+    <AlternateText>Khuyến mãi 30/4->1/5</AlternateText>
+    <Keyword>khuyen mai</Keyword>
+    <Impressions>1</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>..\KhuyenMai\khuyenmaigiamgia.jpg</ImageUrl>
+    <NavigateUrl>~/KhuyenMai/khuyenmai.html</NavigateUrl>
+    <AlternateText>Giảm giá lớn</AlternateText>
+    <Keyword>khuyen mai</Keyword>
+    <Impressions>1</Impressions>
+  </Ad>
+  
+</Advertisements>

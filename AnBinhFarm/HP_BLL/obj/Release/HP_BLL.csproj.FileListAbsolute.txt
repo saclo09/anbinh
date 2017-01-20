@@ -1,0 +1,14 @@
+E:\NOITHATHOAPHAT\HP_BLL\bin\Release\HP_BLL.dll
+E:\NOITHATHOAPHAT\HP_BLL\bin\Release\HP_BLL.pdb
+E:\NOITHATHOAPHAT\HP_BLL\bin\Release\HP_DAL.dll
+E:\NOITHATHOAPHAT\HP_BLL\bin\Release\HP_DAL.pdb
+E:\NOITHATHOAPHAT\HP_BLL\obj\Release\HP_BLL.csprojResolveAssemblyReference.cache
+E:\NOITHATHOAPHAT\HP_BLL\obj\Release\HP_BLL.dll
+E:\NOITHATHOAPHAT\HP_BLL\obj\Release\HP_BLL.pdb
+E:\WEBANBINH\AnBinhFarm\HP_BLL\bin\Release\HP_BLL.dll
+E:\WEBANBINH\AnBinhFarm\HP_BLL\bin\Release\HP_BLL.pdb
+E:\WEBANBINH\AnBinhFarm\HP_BLL\bin\Release\HP_DAL.dll
+E:\WEBANBINH\AnBinhFarm\HP_BLL\bin\Release\HP_DAL.pdb
+E:\WEBANBINH\AnBinhFarm\HP_BLL\obj\Release\HP_BLL.csprojResolveAssemblyReference.cache
+E:\WEBANBINH\AnBinhFarm\HP_BLL\obj\Release\HP_BLL.dll
+E:\WEBANBINH\AnBinhFarm\HP_BLL\obj\Release\HP_BLL.pdb

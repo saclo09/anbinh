@@ -1,0 +1,2518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WebAnBinh</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>01/12/2017 10:18:44</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>01/12/2017 10:19:13</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>01/12/2017 10:19:13</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>01/12/2017 10:19:13</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>01/12/2017 10:19:14</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>01/12/2017 10:19:14</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>01/12/2017 10:19:14</publishTime>
+    </File>
+    <File Include="Admin/Admin.Master">
+      <publishTime>01/15/2017 03:13:07</publishTime>
+    </File>
+    <File Include="Admin/ArticleManager.aspx">
+      <publishTime>01/13/2017 10:06:13</publishTime>
+    </File>
+    <File Include="Admin/Baiviet.aspx">
+      <publishTime>01/13/2017 10:06:13</publishTime>
+    </File>
+    <File Include="Admin/CommenManager.aspx">
+      <publishTime>01/13/2017 10:06:13</publishTime>
+    </File>
+    <File Include="Admin/DealManager.aspx">
+      <publishTime>01/13/2017 10:06:13</publishTime>
+    </File>
+    <File Include="Admin/Default.aspx">
+      <publishTime>01/13/2017 10:05:55</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/behaviors/disablehandles.htc">
+      <publishTime>03/29/2013 20:03:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/behaviors/showtableborders.htc">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/fck_editorarea.css">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/fck_internal.css">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/fck_showtableborders_gecko.css">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_address.png">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_blockquote.png">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_div.png">
+      <publishTime>03/29/2013 20:03:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h1.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h2.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h3.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h4.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h5.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_h6.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_p.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/block_pre.png">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/fck_anchor.gif">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/fck_flashlogo.gif">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/fck_hiddenfield.gif">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/fck_pagebreak.gif">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/css/images/fck_plugin.gif">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/common/fck_dialog_common.css">
+      <publishTime>03/29/2013 20:03:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/common/fck_dialog_common.js">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/common/images/locked.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/common/images/reset.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/common/images/unlocked.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_about.html">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_about/logo_fckeditor.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_about/logo_fredck.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_about/sponsors/spellchecker_net.gif">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_anchor.html">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_button.html">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_checkbox.html">
+      <publishTime>03/29/2013 20:03:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_colorselector.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_div.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_docprops.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_docprops/fck_document_preview.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_flash.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_flash/fck_flash.js">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_flash/fck_flash_preview.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_form.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_hiddenfield.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_image.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_image/fck_image.js">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_image/fck_image_preview.html">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_link.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_link/fck_link.js">
+      <publishTime>03/29/2013 20:03:48</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_listprop.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_paste.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_radiobutton.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_replace.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_scayt.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_scayt/scayt_dialog.css">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_select.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_select/fck_select.js">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_smiley.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_source.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_specialchar.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php">
+      <publishTime>03/29/2013 20:03:50</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_table.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_tablecell.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_template.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_template/images/template1.gif">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_template/images/template2.gif">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_template/images/template3.gif">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_textarea.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dialog/fck_textfield.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dtd/fck_dtd_test.html">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dtd/fck_xhtml10strict.js">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/dtd/fck_xhtml10transitional.js">
+      <publishTime>03/29/2013 20:03:52</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/fckdebug.html">
+      <publishTime>03/29/2013 20:03:54</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/fckdialog.html">
+      <publishTime>03/29/2013 20:03:54</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/fckeditor.html">
+      <publishTime>03/29/2013 20:03:54</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/fckeditor.original.html">
+      <publishTime>03/29/2013 20:03:54</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/browser.css">
+      <publishTime>03/29/2013 20:03:54</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/browser.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmactualfolder.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmcreatefolder.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmfolders.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmresourceslist.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmresourcetype.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/frmupload.html">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/ButtonArrow.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/Folder.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/Folder32.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/FolderOpened.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/FolderOpened32.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/FolderUp.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/ai.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/avi.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/cs.gif">
+      <publishTime>03/29/2013 20:03:56</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/dll.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/doc.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/exe.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/fla.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/gif.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/htm.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/html.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/js.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/png.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/swf.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/swt.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/txt.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/xls.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/xml.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/32/zip.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/ai.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/avi.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/bmp.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/cs.gif">
+      <publishTime>03/29/2013 20:03:58</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/default.icon.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/dll.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/doc.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/exe.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/fla.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/gif.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/htm.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/html.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/jpg.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/js.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/mdb.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/mp3.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/pdf.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/png.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/ppt.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/rdp.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/swf.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/swt.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/txt.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/vsd.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/xls.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/xml.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/icons/zip.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/images/spacer.gif">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/js/common.js">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/browser/default/js/fckxml.js">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/basexml.asp">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/class_upload.asp">
+      <publishTime>03/29/2013 20:04:00</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/commands.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/config.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/connector.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/io.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/upload.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/asp/util.asp">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/aspx/config.ascx">
+      <publishTime>03/30/2013 07:56:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/aspx/delete.aspx">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/aspx/upload.aspx">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf5_connector.cfm">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf5_upload.cfm">
+      <publishTime>03/29/2013 20:04:02</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_basexml.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_commands.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_connector.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_io.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_upload.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/cf_util.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/config.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/connector.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/image.cfc">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/ImageObject.cfc">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/cfm/upload.cfm">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/lasso/config.lasso">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/lasso/connector.lasso">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/lasso/upload.lasso">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/basexml.pl">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/commands.pl">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/config.pl">
+      <publishTime>03/29/2013 20:04:04</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/connector.cgi">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/io.pl">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/upload.cgi">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/upload_fck.pl">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/perl/util.pl">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/basexml.php">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/commands.php">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/config.php">
+      <publishTime>03/29/2013 20:04:06</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/connector.php">
+      <publishTime>03/29/2013 20:04:08</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/io.php">
+      <publishTime>03/29/2013 20:04:08</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/phpcompat.php">
+      <publishTime>03/29/2013 20:04:08</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/upload.php">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/php/util.php">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/config.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/connector.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/fckcommands.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/fckconnector.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/fckoutput.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/fckutil.py">
+      <publishTime>03/29/2013 20:04:10</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/htaccess.txt">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/upload.py">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/wsgi.py">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/py/zope.py">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/test.html">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/filemanager/connectors/uploadtest.html">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/anchor.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/arrow_ltr.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/arrow_rtl.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/angel_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/angry_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/broken_heart.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/cake.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/confused_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/cry_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/devil_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/embaressed_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/envelope.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/heart.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/kiss.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/lightbulb.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/omg_smile.gif">
+      <publishTime>03/29/2013 20:04:12</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/regular_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/sad_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/shades_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/teeth_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/thumbs_down.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/thumbs_up.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/tounge_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/smiley/msn/wink_smile.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/images/spacer.gif">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/js/fckadobeair.js">
+      <publishTime>03/29/2013 20:04:14</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/js/fckeditorcode_gecko.js">
+      <publishTime>03/29/2013 20:04:16</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/js/fckeditorcode_ie.js">
+      <publishTime>03/29/2013 20:04:16</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/af.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ar.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/bg.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/bn.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/bs.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ca.js">
+      <publishTime>03/29/2013 20:04:18</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/cs.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/da.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/de.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/el.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/en-au.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/en-ca.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/en-uk.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/en.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/eo.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/es.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/et.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/eu.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/fa.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/fi.js">
+      <publishTime>03/29/2013 20:04:20</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/fo.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/fr-ca.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/fr.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/gl.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/gu.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/he.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/hi.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/hr.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/hu.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/is.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/it.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ja.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/km.js">
+      <publishTime>03/29/2013 20:04:22</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ko.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/lt.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/lv.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/mn.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ms.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/nb.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/nl.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/no.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/pl.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/pt-br.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/pt.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ro.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/ru.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/sk.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/sl.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/sr-latn.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/sr.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/sv.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/th.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/tr.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/uk.js">
+      <publishTime>03/29/2013 20:04:24</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/vi.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/zh-cn.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/zh.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/lang/_translationstatus.txt">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/autogrow/fckplugin.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/bbcode/fckplugin.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/bbcode/_sample/sample.config.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/bbcode/_sample/sample.html">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/dragresizetable/fckplugin.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/fckplugin.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/fck_placeholder.html">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/de.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/en.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/es.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/fr.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/it.js">
+      <publishTime>03/29/2013 20:04:26</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/lang/pl.js">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/placeholder/placeholder.gif">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/simplecommands/fckplugin.js">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/plugins/tablecommands/fckplugin.js">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/fck_dialog.css">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/fck_dialog_ie6.js">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/fck_editor.css">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/fck_strip.gif">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/dialog.sides.gif">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/dialog.sides.png">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/dialog.sides.rtl.png">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/sprites.gif">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/sprites.png">
+      <publishTime>03/29/2013 20:04:28</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.arrowright.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.buttonarrow.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.collapse.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.end.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.expand.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.separator.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/default/images/toolbar.start.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/fck_dialog.css">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/fck_dialog_ie6.js">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/fck_editor.css">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/fck_strip.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/dialog.sides.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/dialog.sides.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/dialog.sides.rtl.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/sprites.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/sprites.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.arrowright.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.bg.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.buttonarrow.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.collapse.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.end.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.expand.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.separator.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/office2003/images/toolbar.start.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/fck_dialog.css">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/fck_dialog_ie6.js">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/fck_editor.css">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/fck_strip.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/dialog.sides.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/dialog.sides.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/dialog.sides.rtl.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/sprites.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/sprites.png">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.arrowright.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.buttonarrow.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.buttonbg.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.collapse.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.end.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.expand.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.separator.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/silver/images/toolbar.start.gif">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/skins/_fckviewstrips.html">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/wsc/ciframe.html">
+      <publishTime>03/29/2013 20:04:30</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/wsc/tmpFrameset.html">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/wsc/w.html">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckcontextmenu.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdataprocessor.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdocumentfragment_gecko.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdocumentfragment_ie.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdomrange.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdomrangeiterator.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdomrange_gecko.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckdomrange_ie.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckeditingarea.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckelementpath.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckenterkey.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckevents.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckhtmliterator.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckicon.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckiecleanup.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckimagepreloader.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckkeystrokehandler.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckmenublock.js">
+      <publishTime>03/29/2013 20:04:32</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckmenublockpanel.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckmenuitem.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckpanel.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckplugin.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckspecialcombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckstyle.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbar.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarbreak_gecko.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarbreak_ie.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarbutton.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarbuttonui.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarfontformatcombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarfontscombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarfontsizecombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarpanelbutton.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarspecialcombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fcktoolbarstylecombo.js">
+      <publishTime>03/29/2013 20:04:34</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckw3crange.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckxml.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckxml_gecko.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/classes/fckxml_ie.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckblockquotecommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckcorestylecommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckfitwindow.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckindentcommands.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckjustifycommands.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fcklistcommands.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fcknamedcommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckpasteplaintextcommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckpastewordcommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckremoveformatcommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckshowblocks.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_gecko.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_ie.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fckstylecommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fcktablecommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fcktextcolorcommand.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/commandclasses/fck_othercommands.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/fckconstants.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/fckeditorapi.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/fckjscoreextensions.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/fckscriptloader.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fck.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckbrowserinfo.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckcodeformatter.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckcommands.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckconfig.js">
+      <publishTime>03/29/2013 20:04:36</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckdebug.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckdebug_empty.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckdialog.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckdocumentprocessor.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckdomtools.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcklanguagemanager.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcklisthandler.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcklistslib.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckplugins.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckregexlib.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckscayt.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckselection.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckselection_gecko.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckselection_ie.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckstyles.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktablehandler.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktablehandler_gecko.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktablehandler_ie.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktoolbaritems.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktoolbarset.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktools.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktools_gecko.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fcktools_ie.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckundo.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckurlparams.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckxhtml.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckxhtmlentities.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckxhtml_gecko.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fckxhtml_ie.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fck_contextmenu.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fck_gecko.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/editor/_source/internals/fck_ie.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckconfig.js">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.afp">
+      <publishTime>03/29/2013 20:04:38</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.cfc">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.js">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.lasso">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.php">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.pl">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor.py">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor_php4.php">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckeditor_php5.php">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckpackager.xml">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckstyles.xml">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fcktemplates.xml">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/fckutils.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/license.txt">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_documentation.html">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/application.xml">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/icons/128.png">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/icons/16.png">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/icons/32.png">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/icons/48.png">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/package.bat">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/run.bat">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/sample01.html">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/adobeair/sample01_cert.pfx">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/fck.afpa">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/fck.afpa.code">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/sample01.afp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/sample02.afp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/sample03.afp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/sample04.afp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/afp/sampleposteddata.afp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/asp/sample01.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/asp/sample02.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/asp/sample03.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/asp/sample04.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/asp/sampleposteddata.asp">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample01.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample01_mx.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample02.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample02_mx.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample03.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample03_mx.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample04.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sample04_mx.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/cfm/sampleposteddata.cfm">
+      <publishTime>03/29/2013 20:04:40</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/default.html">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample06.config.js">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample11_frame.html">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample14.config.js">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample14.styles.css">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample15.config.js">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample16.config.js">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample16.fla">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/sample16.swf">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/assets/swfobject.js">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample01.html">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample02.html">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample03.html">
+      <publishTime>03/29/2013 20:04:42</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample04.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample05.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample06.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample07.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample08.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample09.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample10.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample11.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample12.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample13.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample14.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample15.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/html/sample16.html">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/lasso/sample01.lasso">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/lasso/sample02.lasso">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/lasso/sample03.lasso">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/lasso/sample04.lasso">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/lasso/sampleposteddata.lasso">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/perl/sample01.cgi">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/perl/sample02.cgi">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/perl/sample03.cgi">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/perl/sample04.cgi">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/perl/sampleposteddata.cgi">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/php/sample01.php">
+      <publishTime>03/29/2013 20:04:44</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/php/sample02.php">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/php/sample03.php">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/php/sample04.php">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/php/sampleposteddata.php">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/py/sample01.py">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/py/sampleposteddata.py">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/sample.css">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/sampleslist.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/fckplugin.js">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/find.gif">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/find.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/lang/en.js">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/lang/fr.js">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/lang/it.js">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/replace.gif">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/findreplace/replace.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_samples/_plugins/samples/fckplugin.js">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_upgrade.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_whatsnew.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/fckeditor/_whatsnew_history.html">
+      <publishTime>03/29/2013 20:04:46</publishTime>
+    </File>
+    <File Include="Admin/GroupItermManager.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/GroupitermNew.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/images/background.jpg">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/banner.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bannerwebmoi.jpg">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bannẻr.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bg1.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bg2.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bg3.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bg4.png">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/bgtop.jpg">
+      <publishTime>03/22/2013 09:30:00</publishTime>
+    </File>
+    <File Include="Admin/images/calendar.jpg">
+      <publishTime>03/22/2013 09:30:00</publishTime>
+    </File>
+    <File Include="Admin/images/calendar.png">
+      <publishTime>03/22/2013 09:30:00</publishTime>
+    </File>
+    <File Include="Admin/images/Cancel.jpg">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/cart1.gif">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/chitiet.gif">
+      <publishTime>06/23/2013 09:49:31</publishTime>
+    </File>
+    <File Include="Admin/images/CorpBanner.swf">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/dathang.gif">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/DEAL.png">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/delete.gif">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/Delete.jpg">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/DT.png">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/Edit.png">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/favicon.png">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/giaodien_23.gif">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/Giohang.gif">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/giohang_1.gif">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/hot.png">
+      <publishTime>06/23/2013 09:49:32</publishTime>
+    </File>
+    <File Include="Admin/images/icon.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/iconshopping.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_arrow-tim.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Icon_Cam.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Icon_Cam.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Icon_Category.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_detail.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_list.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_list.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_row_red.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_vang.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/icon_vang.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Licam.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/lido.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/lienlac.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Lixanh.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/lixanhduong.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/lockscreen.png">
+      <publishTime>03/22/2013 09:30:00</publishTime>
+    </File>
+    <File Include="Admin/images/login.png">
+      <publishTime>03/22/2013 09:30:02</publishTime>
+    </File>
+    <File Include="Admin/images/LOGO.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/logo2.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/LOGO21.PNG">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/muitendo.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/nenlogin.jpg">
+      <publishTime>03/22/2013 09:30:00</publishTime>
+    </File>
+    <File Include="Admin/images/new.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/New.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/noimage.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Note.JPG">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/notonline.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/nut_chonmua.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/online.png">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/right.gif">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Save.jpg">
+      <publishTime>06/23/2013 09:49:33</publishTime>
+    </File>
+    <File Include="Admin/images/Sotien.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/Tien.png">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/tieude1_01.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/tieude1_02.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/TRA.png">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/Untitled.png">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/up.png">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/Xe.png">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/xehang.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/XemGhang.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/Xoa.jpg">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/images/xoagiohang.gif">
+      <publishTime>06/23/2013 09:49:34</publishTime>
+    </File>
+    <File Include="Admin/login.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/ManagerAcountP.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/ManagerCartGH.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/ManufactureManager.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/MyAccount.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/NewDeal.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/ProductManager.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/Sanpham.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/UploadDataToExcel.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/AccountManager.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/CTBaiviet.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/DealManager.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/Groupnew.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/ManagerArticle.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/ManagerCart.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/ManagerComment.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/ManagerGroupIterm.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/ManagerProduct.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/Manufacturer.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/Menu.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/MyAccount.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/NewDeal.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Admin/usc/SanPham.ascx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="app.config">
+      <publishTime>01/13/2017 15:06:33</publishTime>
+    </File>
+    <File Include="App_Themes/admin/style.css">
+      <publishTime>03/29/2013 01:03:58</publishTime>
+    </File>
+    <File Include="App_Themes/default/style.css">
+      <publishTime>07/29/2013 23:58:24</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/12/2010 11:10:28</publishTime>
+    </File>
+    <File Include="bin/AnBinhFarm.dll">
+      <publishTime>01/16/2017 23:32:49</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/12/2017 10:19:06</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>01/12/2017 10:19:08</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>01/12/2017 10:19:08</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/12/2017 10:19:15</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/12/2017 10:19:15</publishTime>
+    </File>
+    <File Include="bin/FredCK.FCKeditorV2.dll">
+      <publishTime>08/28/2010 22:08:36</publishTime>
+    </File>
+    <File Include="bin/HP_BLL.dll">
+      <publishTime>01/16/2017 23:32:48</publishTime>
+    </File>
+    <File Include="bin/HP_DAL.dll">
+      <publishTime>01/16/2017 23:32:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>01/12/2017 10:19:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>01/12/2017 10:19:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>01/12/2017 10:19:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>01/12/2017 10:19:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>01/12/2017 10:19:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>01/12/2017 10:19:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/12/2017 10:19:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>01/12/2017 10:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/12/2017 10:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>01/12/2017 10:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>01/12/2017 10:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>01/12/2017 10:19:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>01/12/2017 10:19:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>01/12/2017 10:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/12/2017 10:19:11</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/12/2017 10:19:07</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>01/12/2017 10:19:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/12/2017 10:19:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>01/12/2017 10:19:19</publishTime>
+    </File>
+    <File Include="bin/UrlRewritingNet.UrlRewriter.dll">
+      <publishTime>05/06/2013 15:09:38</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>01/12/2017 10:18:44</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>01/12/2017 10:18:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/css/Site.css">
+      <publishTime>01/16/2017 17:58:51</publishTime>
+    </File>
+    <File Include="Content/css/style.css">
+      <publishTime>01/11/2017 10:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.min.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="Content/js/jquery-3.1.1.min.js">
+      <publishTime>01/04/2017 14:14:39</publishTime>
+    </File>
+    <File Include="Content/js/jquery-ui.js">
+      <publishTime>01/11/2017 10:54:14</publishTime>
+    </File>
+    <File Include="Content/js/npm.js">
+      <publishTime>07/25/2016 15:53:30</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/12/2017 10:19:14</publishTime>
+    </File>
+    <File Include="Content/tooltip/stickytooltip.css">
+      <publishTime>06/15/2013 14:48:51</publishTime>
+    </File>
+    <File Include="Content/tooltip/stickytooltip.js">
+      <publishTime>06/13/2013 19:35:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/16/2017 15:20:29</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/12/2017 10:18:44</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/12/2017 10:18:44</publishTime>
+    </File>
+    <File Include="GroupIterm.aspx">
+      <publishTime>01/13/2017 10:05:56</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>01/13/2017 10:54:57</publishTime>
+    </File>
+    <File Include="Home.Master">
+      <publishTime>01/16/2017 13:59:23</publishTime>
+    </File>
+    <File Include="img/favicon.png">
+      <publishTime>01/05/2017 13:41:31</publishTime>
+    </File>
+    <File Include="img/headerbackground.png">
+      <publishTime>01/05/2017 15:13:12</publishTime>
+    </File>
+    <File Include="img/logo an binh chinh thuc.jpg">
+      <publishTime>01/05/2017 11:49:15</publishTime>
+    </File>
+    <File Include="img/logo.jpg">
+      <publishTime>01/05/2017 11:49:15</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>01/05/2017 13:41:31</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/13/2017 11:18:09</publishTime>
+    </File>
+    <File Include="Rau-sach-An-Binh.aspx">
+      <publishTime>01/16/2017 22:32:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/12/2017 10:19:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/12/2017 10:18:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>01/12/2017 10:18:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>01/12/2017 10:18:57</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>01/12/2017 10:19:04</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>01/12/2017 10:19:04</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>01/12/2017 10:19:04</publishTime>
+    </File>
+    <File Include="Scripts/stickytooltip.css">
+      <publishTime>06/15/2013 14:48:51</publishTime>
+    </File>
+    <File Include="Scripts/stickytooltip.js">
+      <publishTime>06/13/2013 19:35:50</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>01/12/2017 10:19:09</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>01/12/2017 10:19:10</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>01/13/2017 10:21:54</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>01/16/2017 15:19:29</publishTime>
+    </File>
+    <File Include="Uploads/Editor/image/ms-59.jpg">
+      <publishTime>03/30/2013 10:08:46</publishTime>
+    </File>
+    <File Include="Uploads/images/bua-an-title.jpg">
+      <publishTime>01/05/2017 14:32:47</publishTime>
+    </File>
+    <File Include="Uploads/images/bua-an.jpg">
+      <publishTime>01/05/2017 13:57:26</publishTime>
+    </File>
+    <File Include="Uploads/images/rau-sach-1.jpg">
+      <publishTime>01/04/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Uploads/images/rau-sach-2.jpg">
+      <publishTime>01/04/2017 16:12:12</publishTime>
+    </File>
+    <File Include="Uploads/images/rau-sach-3.jpg">
+      <publishTime>01/04/2017 16:12:43</publishTime>
+    </File>
+    <File Include="Uploads/images/rau-sach-4.jpg">
+      <publishTime>01/04/2017 16:14:59</publishTime>
+    </File>
+    <File Include="Uploads/images/xa-lach-xoan.jpg">
+      <publishTime>01/06/2017 14:47:54</publishTime>
+    </File>
+    <File Include="urlfriend.config">
+      <publishTime>01/13/2017 11:28:28</publishTime>
+    </File>
+    <File Include="urlrewrite.config">
+      <publishTime>06/30/2013 20:53:00</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>01/12/2017 10:19:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/13/2017 15:19:17</publishTime>
+    </File>
+    <File Include="WEBUSC/AllDealHETHAN.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/ArticleByGroup.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/ArticleDetail.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/BOOKCART.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/bottom.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/bvKM.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/CartUS.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/ChitietSP.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/DEAL.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/DealDetail.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/DetailSP.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/FanPage.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/Footer.ascx">
+      <publishTime>01/13/2017 15:35:14</publishTime>
+    </File>
+    <File Include="WEBUSC/GroupProduct.ascx">
+      <publishTime>01/16/2017 17:10:20</publishTime>
+    </File>
+    <File Include="WEBUSC/GroupProductAndArticle.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/Header.ascx">
+      <publishTime>01/14/2017 15:45:38</publishTime>
+    </File>
+    <File Include="WEBUSC/HotArticle.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/LGroup.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/Lhome.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/LIENHE.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/LMenu.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/Lmenu2.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/MainMenu.ascx">
+      <publishTime>01/15/2017 01:54:44</publishTime>
+    </File>
+    <File Include="WEBUSC/Mappath.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/ND.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/NdChinh.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/NDhead.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/NDHEADER.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/NDSP.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/NewAllArticle.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/ProductList.ascx">
+      <publishTime>01/16/2017 23:30:21</publishTime>
+    </File>
+    <File Include="WEBUSC/QKtimKiem.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/SanphamBanChay.ascx">
+      <publishTime>01/16/2017 14:20:07</publishTime>
+    </File>
+    <File Include="WEBUSC/SlideKM.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/SlideKMM.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/SpMoi.ascx">
+      <publishTime>01/16/2017 14:02:04</publishTime>
+    </File>
+    <File Include="WEBUSC/ThongtinCART.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+    <File Include="WEBUSC/Timkiem.ascx">
+      <publishTime>01/13/2017 10:05:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

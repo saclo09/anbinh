@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Empty.master.cs" Inherits="HPSHOP.Empty" %>
+<%@ Register src="WEBUSC/Header.ascx" tagname="Header" tagprefix="uc1" %>
+<%@ Register src="WEBUSC/bottom.ascx" tagname="bottom" tagprefix="uc2" %>
+<%@ Register src="WEBUSC/LMenu.ascx" tagname="LMenu" tagprefix="uc3" %>
+<%@ Register src="WEBUSC/MainMenu.ascx" tagname="MainMenu" tagprefix="uc4" %>
+<%@ Register src="WEBUSC/Timkiem.ascx" tagname="Timkiem" tagprefix="uc5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="App_Themes/default/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/stickytooltip.css" rel="stylesheet" type="text/css" />
+     <script src="/Scripts/jquery-1.8.2.min.js" ></script>
+     <script src="/Scripts/stickytooltip.js" type="text/javascript"></script>
+    <title>
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Images/favicon.png" rel="shortcut icon" type="image/x-icon" />  
+
+    
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div id="all">
+            <div id="header">
+                
+                <uc1:Header ID="Header1" runat="server" />
+                
+            </div>
+            <div id="main">
+                                             
+                        <div id="menungang">                               
+                           <uc4:MainMenu ID="MainMenu1" runat="server" />                               
+                        </div>
+                   
+                    <div id="duoi" >
+                        <asp:ContentPlaceHolder ID="ND" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            
+            <div id="bottom">
+                <uc2:bottom ID="bottom1" runat="server" />
+            </div>
+        
+            </div>
+       
+    </form>
+</body>
+</html>

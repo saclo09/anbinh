@@ -1,0 +1,69 @@
+﻿*
+{
+	margin:auto;
+}
+#all
+{
+	margin:auto;
+	width:900px;
+}
+#top
+{
+	position:relative;
+	float:left;
+	width:100%;
+	background-image:url('../../Admin/images/bgtop.jpg');
+	background-repeat:repeat-x;	
+	height: 65px;
+}
+#menu
+{
+	position:relative;
+	float:left;
+	width:898px;	
+	height:20px;
+	background-color:#3584c9;
+	border:solid 1px white;
+}
+#main
+{
+	position:relative;
+	float:left;
+	width:898px;	
+	background-color:#3584c9;
+	border:solid 1px white;
+}
+#left
+{
+	position:relative;
+	float:left;
+	width:180px;	
+	background-color:White;
+    top: 0px;
+    left: 0px;
+}
+#right
+{
+	position:relative;
+	float:right;
+	width:716px;	
+	background-color:White;
+	
+}
+#bottom
+{
+	width:100%;
+	background-color:#3584c9;
+	position:relative;
+	float:right;
+	height:30px;
+}
+.tieudeAdmin
+{
+    background-color:#0033FF;
+    color:White;
+    height:25px;
+   text-transform: uppercase;
+   position:relative;
+   font-weight:bold;
+}

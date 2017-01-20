@@ -1,0 +1,176 @@
+
+/* main class*/
+
+.padding15{
+    padding: 15px;
+}
+.padding-top20{
+    padding-top: 20px;
+}
+.padding-top15{
+    padding-top: 15px;
+}
+.padding-top40{
+    padding-top: 40px;
+}
+.padding-tb20{
+     padding: 20px 0;
+ }
+.padding-lr20{
+    padding: 0 20px;
+}
+.padding-tb40{
+      padding:0 40px;
+  }
+
+.title{
+    font-weight: bold;
+    color: #66ff33;
+    font-size:16px ;
+}
+.panel-ct{
+    padding-top:15px;
+}
+
+.blue-border-top{
+    border-top: 3px solid #66ff33;
+}
+
+session a{
+    color:#0ac41c;
+}
+
+.breadcrumb{
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">";
+}
+@media (min-width: 1000px) {
+
+
+    header .container{
+        background-image: url("../img/headerbackground.png") ;
+        background-repeat: no-repeat;
+        background-position-x: 100px;
+    }
+    .header {
+        height: 130px;
+        background-color: #4be825;
+        color: white;
+    }
+    .header a{
+        color: white;
+
+    }
+		.main-menu{
+		margin-top:89px;
+		margin-left: 20%;
+            font-size: 16px;
+	}
+    .main-menu>li>a{
+        padding: 10px 20px;
+    }
+    .main-menu>li>a{
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .main-menu > li > a:hover, .main-menu > li > a:focus ,.main-menu > li.open > a{
+
+        background-color: #339900;
+    }
+    .main-menu .open > a, .main-menu .open > a:hover, .main-menu .open > a:focus {
+        background-color: #339900;
+        border-color: #337ab7;
+    }
+    .main-menu > li > .dropdown-menu
+    {
+        background-color: #339900;
+    }
+
+    .action-menu{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+
+
+
+
+
+}
+
+
+.header {
+    background-color: #4be825;
+    color: white;
+}
+
+.navbar-ab button.navbar-toggle{
+    background-color: #3c763d;
+}
+.navbar-ab .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+
+#mainCarousel{
+    height: 300px;
+}
+#mainCarousel img{
+	width :100%;
+	height:300px;
+}
+
+.footer {
+    background-color: #0ac41c;
+    color: white;
+    text-align: left;
+
+}
+.footer-content{
+
+}
+
+/* san phẩm*/
+.sp-item{
+    border: 1px solid #0ac41c;
+    margin: 15px 0 ;
+    position: relative;
+}
+.sp-tile {
+    padding: 5px;
+    text-align: center;
+    color: #0ac41c;
+    border-top: 1px solid #0ac41c;
+}
+.sp-img{
+    width: 100%;
+    height: 120px;
+}
+.tooltip {
+
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.sp-item .sp-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.sp-item:hover .sp-tooltiptext {
+    visibility: visible;
+}

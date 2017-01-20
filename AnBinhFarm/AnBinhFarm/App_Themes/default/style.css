@@ -1,0 +1,708 @@
+﻿
+body{
+    
+    background-image:url('Images/background.jpg');
+    background-repeat:repeat-y;
+    background-attachment:fixed;
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+     font-size: 13px;
+      font-style: normal;
+       font-variant: normal;
+}
+
+h1
+{    color:Blue;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a
+{
+    text-decoration:none;
+}
+a img
+{
+    border:none;
+    text-decoration:none;
+}
+/*=================================Home===============================*/
+
+#all
+{
+    width:1002px;   
+    margin:auto;
+    background-color:White;
+    position:relative;
+    clear:both;
+   /* border:1px solid #aaccbb;*/
+   }
+#all #header
+{
+    width:100%;
+    position:relative;
+    float:left;
+    background-image:url("/../../Images/banner.jpg");
+    background-repeat:no-repeat;
+}
+.ndhead
+{
+    width:581px;float:left;position:relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ndhead a
+{
+   font-family: 'Times New Roman', Times, serif; font-size:13px;
+}
+#main
+{
+     position:relative;
+     width:100%;
+          float:left;
+     background-color:White;
+     
+}
+#all #main #right
+{
+    position:relative;
+    width:810px;
+    float:right;
+}
+#all #main #left
+{
+    position:relative;
+    width:190px;
+    float:left;
+    z-index:1;
+}
+#tren
+{
+    position:relative;
+    width:100%; 
+    float:left;
+    height:300px;
+} 
+#duoi 
+{
+     position:relative;
+    width:100%; 
+    float:left;
+    
+}
+#center
+{   
+    position:relative;
+     width:620px;
+    float:left;
+    
+    
+}
+ #lienlac
+{
+     position:relative;
+    width:190px;
+    float:left;
+    height:100%;
+}
+#menungang
+{
+    position:relative;
+    width:100%;
+    float:left;  
+   
+}
+#center #timkiem
+{
+    position:relative;
+    width:100%;
+    float:left;  
+}
+#center #hot
+{
+    position:relative;
+    width:100%;
+    float:left;  
+}
+#hot #slideKM
+{
+    position:relative;
+    width:440px;
+    float:left;  
+    
+}
+#hot #hit
+{
+    position:relative;
+    width:180px;
+    float:left;  
+}
+.deal
+{
+    background-image:url('/Images/DEAL.png');
+    background-repeat:no-repeat;
+    width:170px;
+    height:240px;
+    font-size:13px;
+}
+ .tieudeDeal
+ {
+     height:30px;
+     width:100%;
+     position:relative;
+     float:left;
+ }
+ .ndDeal  
+ {
+     position:relative;
+     width:100%;
+     height:210px;
+    
+ }
+ .hotlogo
+ {
+     height:50px;
+      width:70px;
+      background-image:url('/Images/hot.png');
+      background-repeat:no-repeat;
+      position:absolute;
+      top:-10px;
+      right:-20px;
+      z-index:1;
+ }
+#bottom
+{
+    position:relative;
+    width:100%;
+    border:1px solid #aaccbb;
+    float:left;
+    background-color:White;
+}
+/*========================================================*/
+#SPNhom
+{
+    border:1px solid #aaccbb;
+}
+
+/*  CSS MENU============================================= */
+.MenuMain
+{
+    background-image:url('../../Images/bg3.png');
+    background-repeat:repeat-x;
+    position:relative;
+    width:100%;
+    float:left;
+     background-color:Red; 
+     -moz-border-radius-topleft:5px; 
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    
+     -moz-border-radius-bottomleft:5px; 
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+}
+#MenuMain
+{
+   
+    text-decoration:none;
+    display:block;
+    padding:0px 0px 0px 0px;
+    margin:0px;
+    
+}
+#MenuMain li
+{
+    text-decoration:none;
+    display:block;
+    
+    float:left;
+    padding: 5px 10px 5px 10px;
+    
+    
+}
+#MenuMain li:hover
+{
+    background-color:#ffdddd;    
+    color:Red;
+}
+#MenuMain li a:hover
+{
+   color:Red;
+}
+#MenuMain li a
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration:none;  
+    color:White;
+    font-weight:bold;
+    font-size:13px;
+}
+/* Css menu ngang chủ đề ==============================*/
+
+ul
+{
+    padding:5px; 
+    
+}
+li
+{
+    padding:0px;
+    margin:0px;
+    display:block;
+}
+li.li_me
+{
+    width:100%;
+     display:block;
+     position:relative;
+}
+ul#menuid .hinhiconmenu
+{
+    padding-top:3px;
+    float:right;
+    position:relative;
+    
+}
+ul#menuid li .con
+{
+	position:absolute;
+	float: left;
+	left:180px;
+	width:200px;
+	top:-10px;
+}
+.con li
+{
+	    display:none;	
+}
+ul#menuid li:hover
+{
+	background-color:#ffdddd;
+}
+ul#menuid li:hover ul.con
+{	
+	background-color:#ffdddd;
+}
+ul#menuid li:hover li
+{
+	display:block;
+}
+ul#menuid a
+{
+    text-decoration:none;
+}	
+
+/* Css chử================================== */
+.Ma
+{
+    position:relative;
+    float:left;
+    width:45%;
+    text-align:center;
+    font-weight:bold;
+}
+.Gia
+{
+    position:relative;
+    float:right;
+    width:55%;
+    font-weight:bold;
+    color:Red;
+    text-align:center;
+}
+.chuthuong
+{
+    font-size:13px;
+    color:Black;
+}
+
+.tieudeSPnho, .tieude_h2
+{
+    font-size:13px;
+    color:Blue;
+    
+}
+.tieudeSPlon
+{
+    font-size:15px;
+    color:Blue;
+}
+.atieude
+{
+    padding:3px;
+    font-size:13px;
+    text-decoration:none;
+}
+.atieude:hover
+{
+    color:#5555FF;
+}
+
+.maSPnho
+{
+    font-size:13px;
+       
+}
+#SPNhom a
+{
+    color:White;
+    text-decoration:none;
+}
+.hinhSPnho
+{
+    width:150px;
+    height:170px; 
+    border:1px solid #d1d1d1;
+}
+
+/*=======nội dung home ======================*/
+.divboxnd
+{
+    width:100%;
+    position:relative;
+    float:left;
+    
+}
+.boxSp
+{
+    position:relative;
+    width:20%;
+    float:left;
+    font-size:12px;
+}
+.khungsp
+{
+    width:200px;
+    position:relative;
+    float:left;
+}
+.khungsp:hover
+{
+    background-color:#ffdddd;
+}
+
+.boxspShow2
+{
+    position:absolute;
+   visibility:hidden;    
+    width:200px;
+     font-size:14px;
+     z-index:1; 
+       
+}
+.tieudeboxshow2
+{  padding:5px;
+    -moz-border-radius-topleft:5px; 
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    background-color:#003399;
+    color:White;
+    height:20px;
+    font-weight:bold;
+}
+.ndboxshow2
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    padding:5px;
+    background-color:#f6f6f6;  
+}
+.div4sp
+{
+    position:relative;
+    width:80%;
+    float:left;
+    
+}
+.boxSp:hover
+{
+    background-color:#ffdddd;
+}
+.boxspShow
+{
+   
+    width:200px;
+     font-size:14px;
+     z-index:1; 
+       
+}
+.tieudeboxshow
+{  padding:5px;
+    -moz-border-radius-topleft:5px; 
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    background-color:#003399;
+    color:White;
+    height:20px;
+    font-weight:bold;
+}
+.atip .ndboxshow
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    padding:5px;
+    background-color:#f6f6f6;      
+    border:1px solid #abcbac; 
+}
+
+.boxBv
+{
+    position:relative;
+    width:19%;
+    float:right;
+    padding-left:5px;
+    
+}
+.ndboxshow ul
+{
+    list-style-type:circle;
+    padding-left:15px;
+    padding-top:0px;
+    margin-top:5px;
+}
+.ndboxshow li
+{
+    display:list-item;
+}
+.boxBv a
+{
+   text-decoration:none;
+   color:Blue;    
+}
+.boxBv a:hover
+{
+   text-decoration:none;
+   color:Yellow;    
+}
+/*=================================*/
+.chuvua
+{
+    color:Black;
+    font-size:13px;
+    font-weight:bold;
+    width:60%;
+    float:left;
+    margin: 0px 0px 0px 0px;
+    padding:2px 5px 0px 0px;
+}
+.boxclear
+{
+    height:25px;
+    position:relative;
+    float:left;
+    width:100%;
+    
+}
+.boxtittlexanh
+{
+    width:95%;
+    background-image:url('../../Images/bg3.png');
+    position:relative;
+    float:left;
+    color:White;
+    font-size:13px;
+    padding-top:4px;
+    padding-left:5%;
+    text-transform: uppercase;
+    height:25px;
+    -moz-border-radius-topleft:10px; 
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+}
+.boxtittle
+{
+    width:100%;   
+    border-bottom: 2px solid #ff7e00;    
+    position:relative;
+    float:left;
+    height:25px;
+    
+}
+.boxtittle:hover
+{
+    background-color:#ffeeee;
+    color:Red;
+}
+
+.boxtittle.hinhicon
+{
+    position:relative;
+    
+    float:left;
+    padding-top:6px;
+}
+.xemthem
+{
+    float:right;
+    padding-top:4px;
+    color:Red;
+    /*width:20%;*/
+    text-decoration:none;
+}
+.xemthem:hover
+{
+    color:Yellow;
+    
+}
+/*===========================tiêu đề=============================*/
+.tieudebvnho a
+{
+    text-transform:lowercase;
+}
+.chuchay:hover
+{
+    text-decoration:underline;
+}
+.boxtieude
+{
+    position:relative;
+    float:left;
+    width:100%;
+    height:25px;
+    background-color:#5555ff
+}
+.noidungSpbanchay
+{
+    position:relative;
+    float:left;
+    width:100%;
+    background-color:#f6f6f6;
+     
+}
+/*chitiet Sp==========================*/
+.hinhND 
+{
+    height:311px;
+    width:319px;
+    padding:3px;
+    border:2px solid #aaccbb; 
+}
+
+/*=================Bài viet=====================*/
+.boxtitlebv
+{
+    background-color:#ff9933;
+    color:White;
+    
+}
+.boxtitlebv a
+{
+    
+    color:White;
+    
+}
+.h1chulon
+{
+    color:blue;
+    font-size:13px;
+    padding:5px;
+}
+.h3menu
+{
+    padding:0px;
+    margin:0px;
+    font-size:13px;
+}
+ .boxCTtrensp
+    { 
+        position:relative;
+        float:left;
+        width:100%;
+    }
+    .boxCTHinh
+    {
+        position:relative;
+        float:left;
+        width:45%;
+        margin-top:5px;
+    }
+    .boxCTND
+    {
+        position:relative;
+        float:right;
+        width:55%;
+    }
+    .traind
+    {
+        width:48%;
+        position:relative;
+        float:right;
+        color:#3366ff;
+        font-weight:500;
+    }
+    .traind ul
+    {   padding-left:10px;
+        margin-top:5px;
+        list-style-type:inherit;
+    }
+    #hinhto
+    {
+        height:550px;
+    }
+     .traind ul li
+    {
+        display:list-item;
+    }
+/*========== bỏđi====================
+.boxSp:hover .boxspShow
+{
+ visibility:visible;
+ left:150px;
+ top:-30px;
+ 
+}
+.boxspShow
+{
+    position:absolute;
+   visibility:hidden;    
+    width:200px;
+     font-size:14px;
+     z-index:1; 
+       
+}
+.boxSp:hover .boxspShow
+{
+ visibility:visible;
+ left:120px;
+ top:-50px;
+}
+
+.boxspShow
+{
+    position:absolute;
+   visibility:hidden;    
+    width:200px;
+   height:auto;
+    background-color:#ffdddd; 
+    z-index:1;
+    
+}
+
+.tieudeboxshow
+{  padding:5px;
+    -moz-border-radius-topleft:5px; 
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    background-color:Black;
+    color:White;
+    height:20px;
+    font-weight:bold;
+}
+.ndboxshow
+{
+    padding:5px;
+    background-color:#ffdddd;  
+}
+.khungsp:hover .boxspShow2
+{
+ visibility:visible;
+ left:150px;
+ top:-30px;
+ 
+}*/

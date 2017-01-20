@@ -1,0 +1,10 @@
+E:\NOITHATHOAPHAT\HP_DAL\bin\Release\HP_DAL.dll
+E:\NOITHATHOAPHAT\HP_DAL\bin\Release\HP_DAL.pdb
+E:\NOITHATHOAPHAT\HP_DAL\obj\Release\HP_DAL.csprojResolveAssemblyReference.cache
+E:\NOITHATHOAPHAT\HP_DAL\obj\Release\HP_DAL.dll
+E:\NOITHATHOAPHAT\HP_DAL\obj\Release\HP_DAL.pdb
+E:\WEBANBINH\AnBinhFarm\HP_DAL\bin\Release\HP_DAL.dll
+E:\WEBANBINH\AnBinhFarm\HP_DAL\bin\Release\HP_DAL.pdb
+E:\WEBANBINH\AnBinhFarm\HP_DAL\obj\Release\HP_DAL.csprojResolveAssemblyReference.cache
+E:\WEBANBINH\AnBinhFarm\HP_DAL\obj\Release\HP_DAL.dll
+E:\WEBANBINH\AnBinhFarm\HP_DAL\obj\Release\HP_DAL.pdb

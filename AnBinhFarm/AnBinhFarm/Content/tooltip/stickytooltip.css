@@ -1,0 +1,18 @@
+.stickytooltip{
+    /*box-shadow: 5px 5px 8px #818181; /*shadow for CSS3 capable browsers.
+    -webkit-box-shadow: 5px 5px 8px #818181;
+    -moz-box-shadow: 5px 5px 8px #818181;*/
+    display:none;
+    position:absolute;
+    display:none;
+  /*Border around tooltip*/
+    z-index:30000000000000;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+    background:white;
+    color:white;
+    text-align:center;
+    font:bold 11px Arial;
+}

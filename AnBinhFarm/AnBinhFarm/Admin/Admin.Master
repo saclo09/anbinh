@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="AnBinhFarm.Admin.Admin" %>
+
+<%@ Register src="usc/Menu.ascx" tagname="Menu" tagprefix="uc1" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <link href="../App_Themes/admin/style.css" rel="stylesheet" type="text/css" />    
+    <title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    Quản trị - Manager
+    </asp:ContentPlaceHolder>
+    </title>
+    
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div id="all">
+    
+        <div id="top" class="style1">
+    
+        <strong>TRANG QUẢN TRỊ
+        </strong>
+        </div>
+        <div id="menu">
+            <div style="float:right;padding-right:30px">
+            <asp:Label ID="lblTen"  runat="server" Text="Chào : " ForeColor="White"> </asp:Label>|
+                <a style="color:red" href="Login.aspx"> Thoát     </a>
+            </div>
+        </div>
+        
+        <div id="main">
+            <div id="left">
+                
+                <uc1:Menu ID="Menu1" runat="server" />
+                
+            </div>
+            <div id="right">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+                 </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        
+        <div id="bottom" style="text-align:center">
+            
+                <span style="color: rgb(255, 255, 255);  font-family: Tahoma, Verdana, Arial; font-size: 12px; ">
+            © An Bình Farm </span>
+         </div>
+    </div>
+    </form>
+</body>
+</html>
